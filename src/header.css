@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    font-family: Arial, sans-serif;
+}
+
+
+
+header {
+    height: auto;
+    background: url('../public/aavesh_blue_bg.jpg') no-repeat;
+    background-size: cover;
+    position: center;
+    position: relative;
+}
+
+.home__header {
+    height: 100vh;
+    min-height: auto;
+    background: url('../public/aavesh_blue_bg.jpg') no-repeat;
+    background-size: cover;
+    position: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.home__header::before {
+    content: '';
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    height: inherit;
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    z-index: 3;
+}
+
+.nav__logo__container {
+    width: 50%;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__logo__container img {
+    width: 200px;
+}
+
+.nav__list__container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__list__container ul {
+    display: flex;
+    list-style: none;
+}
+
+
+.nav__list__container ul li {
+    display: block;
+    padding: 20px 20px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.103);
+}
+
+.nav__list__container ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.nav__list__container ul li a:hover {
+    color: black;
+}
+
+.humburger {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    display: none;
+    z-index: 1;
+    padding: 9px;
+    z-index: 9;
+}
+
+.humburger-line {
+    height: 3px;
+    width: 30px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.humburger-line:nth-child(2) {
+    width: 20px;
+}
+
+.menu:nth-child(1) {
+    transform: rotate(45deg) translate(10px, 10px);
+}
+
+.menu:nth-child(2) {
+    transform: translateX(-30px);
+    opacity: 0;
+}
+
+.menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -1px);
+}
