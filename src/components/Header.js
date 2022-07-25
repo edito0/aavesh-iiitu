@@ -41,11 +41,21 @@ function Header() {
 
                 </nav>
 
+                <div class="header__data__container">
+                    <h1>Dr CLEAN</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa architecto accusamus, perspiciatis
+                        nam aliquid id nostrum, error officia obcaecati sapiente rerum, veniam iusto voluptates deserunt
+                        ratione earum magnam odit aperiam!</p>
+                </div>
+
                 <div class='humburger' onClick={menu}>
                     <div class='humburger-line'></div>
                     <div class='humburger-line'></div>
                     <div class='humburger-line'></div>
                 </div>
+
+
+
 
             </header>
         </>
