@@ -15,6 +15,8 @@ function Header() {
         const navbar = document.querySelector('.nav__list__container')
         navbar.classList.toggle('nav__list__container-menu');
         humbuerger.classList.toggle('humburger-menu');;
+
+       
     }
 
 
@@ -39,7 +41,7 @@ function Header() {
 
                 </nav>
 
-                <div class='humburger' onclick="menu()">
+                <div class='humburger' onClick={menu}>
                     <div class='humburger-line'></div>
                     <div class='humburger-line'></div>
                     <div class='humburger-line'></div>
