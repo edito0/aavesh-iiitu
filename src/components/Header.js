@@ -34,7 +34,7 @@ function Header() {
                             <li><a href="index.html">HOME</a></li>
                             <li><a href="products.html">PRODUCTS</a></li>
                             <li><a href="about.html">ABOUT US</a></li>
-                            <li><a href="gallery.html">GALLERY</a></li>
+                            <li><a href="gallery.html">EVENTS</a></li>
                             <li><a href="contact-us.html">CONTACT US</a></li>
                         </ul>
                     </div>
